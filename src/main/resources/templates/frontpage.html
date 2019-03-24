@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Wallpaper calculate</h1>
+<p>How many rolls for a room</p>
+<p data-th-if="${result}"> Your result: [[${result}]]</p>
+<form action="">
+    <input name="wallRoom1" type="text" placeholder="Wall width in m">
+    <input name="wallRoom2" type="text" placeholder="Wall length in m">
+    <input name="heightRoom" type="text" placeholder="Wall height in m">
+    <input name="breadthRoll" type="text" placeholder="Width roll in m">
+    <input name="lengthRoll" type="text" placeholder="Length roll in m">
+    <button>Calculate</button>
+</form>
+</body>
+</html>
