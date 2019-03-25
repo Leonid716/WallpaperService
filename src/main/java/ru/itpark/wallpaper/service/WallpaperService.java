@@ -10,6 +10,6 @@ public class WallpaperService {
 
         double howMuchRolls = howMuchCanvases / (lengthRoll / heightRoom);
 
-        return howMuchRolls;
+        return Math.ceil(howMuchRolls);
     }
 }

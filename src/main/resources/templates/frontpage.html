@@ -7,17 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<style>
+    body {
+        background: url(https://newlivwall.ru/uploads/images/m/o/z/mozhno_li_kleit_oboi_na_zhidkoe_steklo_2.jpg) no-repeat;
+        background-size: cover;
+    }
+</style>
 <body>
-<h1>Wallpaper calculate</h1>
-<p>How many rolls for a room</p>
-<p data-th-if="${result}"> Your result: [[${result}]]</p>
+
+<h1 align="center"><span style="background-color: #ffff00;">Wallpaper calculate</span></h1>
+
+<p><strong >How many rolls for a room</strong></p>
+<p  style="color:navy"  data-th-if="${result}"> Your result: [[${result}]] </p>
 <form action="">
     <input name="wallRoom1" type="text" placeholder="Wall width in m">
     <input name="wallRoom2" type="text" placeholder="Wall length in m">
     <input name="heightRoom" type="text" placeholder="Wall height in m">
     <input name="breadthRoll" type="text" placeholder="Width roll in m">
     <input name="lengthRoll" type="text" placeholder="Length roll in m">
-    <button>Calculate</button>
+    <button style="color: darkred">Calculate </button>
 </form>
 </body>
 </html>
